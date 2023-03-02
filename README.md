@@ -14,3 +14,8 @@ A python code that creates a directed acyclic graph with a fixed set of vertices
 ## Inversion Sequence
 
 A python code that defines a function find_inv(p) that computes the inversion sequence of a given list p. It then demonstrates the usage of this function on two example lists, p1 and p2, and prints the resulting inversion sequences.
+
+
+## Permutations
+
+A python code that defines a function find_per(s) that computes a permutation of a given list s based on the Lehmer code. It then demonstrates the usage of this function on two example lists, s1 and s2, and prints the resulting permutations. If the resulting permutation starts with 0, it means there is no valid permutation for the given Lehmer code.
