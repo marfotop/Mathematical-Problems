@@ -2,9 +2,11 @@
 
 In this repository there are programs that provide solution for mathematical problems, such as finding an Euler Circuit for a graph etc.
 
+
 ## Eulerian Circuit Finder
 
 A python code that creates an undirected graph with n nodes and edges between all pairs of distinct nodes, checks if the graph is Eulerian, and if so, finds an Eulerian circuit in the graph and prints it. If the graph is not Eulerian, it prints a message saying so. The code also includes commented out lines to display the graph.
+
 
 ## Topological Sort
 
@@ -19,3 +21,8 @@ A python code that defines a function find_inv(p) that computes the inversion se
 ## Permutations
 
 A python code that defines a function find_per(s) that computes a permutation of a given list s based on the Lehmer code. It then demonstrates the usage of this function on two example lists, s1 and s2, and prints the resulting permutations. If the resulting permutation starts with 0, it means there is no valid permutation for the given Lehmer code.
+
+
+## Rank
+
+A python code that defines two functions find_inv and find_rank to calculate the inversion sequence and the rank of a given permutation, respectively. The find_inv function takes a list of integers that represents a permutation and returns the inversion sequence of that permutation as a list of integers. The find_rank function takes the inversion sequence of a permutation and calculates its rank. The code then uses these functions to calculate the inversion sequence and the rank of three example permutations and prints the results.
